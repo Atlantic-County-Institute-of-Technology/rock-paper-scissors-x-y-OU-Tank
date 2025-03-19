@@ -6,8 +6,8 @@ body{
 }
 .container{
     border: 1px solid black;
-    height: 700px;
-    width: 700px;
+    height: 800px;
+    width: 975px;
     justify-content: center;
 
 }
@@ -17,8 +17,26 @@ body{
 
 }
 button{
-    height: 220px;
-width: 220px;
+    height: 185px;
+width: 185px;
 background-color: #555;
 border-radius: 50%;
+}
+.NEW-GAME{
+    position: absolute;
+    height: 160px;
+    width: 415px;
+    border-radius: 0%;
+    background-color: aqua;
+    left: 15px;
+    top: px;
+}
+.RESET{
+    position: absolute;
+    height: 160px;
+    width: 415px;
+    border-radius: 0%;
+    background-color: aqua;
+    left: 450px;
+    top: px;
 }
