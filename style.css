@@ -15,12 +15,13 @@ body{
 .buttons{
     border: 1px solid black;
 
-}
+} 
 button{
     height: 185px;
 width: 185px;
 background-color: whitesmoke;
 border-radius: 50%;
+cursor: not-allowed;
 }
 .NEW-GAME{
     position: absolute;
@@ -51,4 +52,43 @@ top: 250px;
     left: 495px;
     width: 120px;
     height: 120px;
+}
+.Paper{
+    position: absolute;
+    top: 40px;
+    left: 685px;
+    width: 120px;
+    height: 120px;
+}
+.Scissor{
+    position: absolute;
+    top: 40px;
+    left: 865px;
+    width: 120px;
+    height: 120px;
+}
+.Paper-shredder{
+    position: absolute;
+    top: 40px;
+    left: 1065px;
+    width: 120px;
+    height: 120px;
+}
+.Pencil{
+    position: absolute;
+    top: 40px;
+    left: 1310px;
+    height: 150px;
+}
+.player{
+    background-color: whitesmoke;
+    align-items: center;
+    margin: 0% auto;  
+    position:absolute;
+    top: 325px;
+    left: 600px;
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+
 }
