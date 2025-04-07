@@ -10,27 +10,33 @@
 <body>
 <div id="container" class="container">
    <div id="result" class="result"></div> 
-   <div class="buttons">
+   <div class="choices">
          <button id="rock" class="rock"></button>
          <button id="scissor" class="scissor"></button>
          <button id="paper" class="paper"></button>
          <button id="microwave" class=""></button>
          <button id="pencil" class="pencil"></button>
     </div>
-    <div id="playerScore" class="playerScore">Player:</div>
-    <div id="computerScore" class="computerScore">Computer:</div>
+    <div class="scoreboard">
+    <p id="player-score">Player:0</p>
+    <p id="computer-score">Computer:0</p>
+   </div>
+   
     <button id="player" class="player"></button>
     <button id="computer" class="computer"></button>
+    <div class="choices_images" id="choices_images">
     <img src="assets/rock.jpg" class="Rock">
     <img src="assets\paper.jpg" alt="" class="Paper">
-    <img src="assets\Scissors.jpg" alt="" class="Scissor">
+    <img src="assets\scissors.jpg" alt="" class="Scissor">
     <img src="assets\microwave.jpg" alt="" class="microwave">
     <img src="assets\pencil.png" alt="" class="Pencil">
     <img src="assets\versus.png" class="versus">
+   </div>
     <div class="settings">
-       <button class="RESET">RESET</button>
+      <button class="reset_button" id="reset_button">RESET</button>
     </div>
-   <script src="script.js"></script>
+ 
+<script src="script.js"></script>
 </div>
 </body>
 </html>
