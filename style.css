@@ -97,12 +97,12 @@ width: 267px;
     border-radius: 50%;
 }
 .player-score{
-    position: relative;
+    position: absolute;
     top: 325px;
     left: 175px;
 }
 .computer-score{
-    position: relative;
+    position: absolute;
     top: 310px;
     left: 625px;
 }

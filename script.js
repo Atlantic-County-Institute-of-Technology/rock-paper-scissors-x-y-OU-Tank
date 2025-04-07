@@ -28,13 +28,13 @@ const choice_icons = ['assets/rock.jpg',
 
   choices.forEach(choice => {
     choice.addEventListener('click', () => {
-        check_winner((choices_list.indexOf(choice.id)+1), computer_choose_item());
+        check_winner((choices_list.indexOf(choice.id)+1), computer_choice());
     })
 })
 
 // for each item/button, 
 function check_winner(player, computer) {
-  console.log(`Player: ${player} | Computer: ${computer}`);
+  console.log(`Player: ${player} | computer: ${computer}`);
   let winner;
   // if the values are equal, tie
   if(player == computer)
@@ -71,7 +71,7 @@ function check_winner(player, computer) {
   }
   else if(player == 4) {
       
-      if(computer == 2 || comuter == 3) {
+      if(computer == 2 || computer == 3) {
           winner = "Player Wins!"
       }
       else 
@@ -126,7 +126,7 @@ function reset_game() {
   player_score_value = 0;
   computer_score_value = 0;
   
-  updateUI('','',"Choose your weapon!");
+  updateUI('', '',"CHOOSE ONE!");
   player_choice.innerHTML = '';
   computer_choice.innerHTML = '';
 }
